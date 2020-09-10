@@ -18,8 +18,8 @@ class ShowTweet extends Component {
             {arr!=undefined?
                 arr.map((data)=>(
                 <Grid item style={{textAlign:'center'}} key={Math.random()}>
-                <h3>Message: {data.singletweet}</h3>
-                <h4>Time : {data.time}</h4>
+                <h3>Your Tweet: {data.singletweet}</h3>
+                <h4>Your Provided Time: {data.time}</h4>
                 <Divider style={{ background:'aliceblue'}}/>
                 </Grid>  
                 )):<div style={{textAlign:'center'}} ><h5>Tweets are empty</h5></div>

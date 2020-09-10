@@ -50,7 +50,7 @@ class SendTweet extends Component {
         <Grid item xs>
         <TextField
         value={this.state.singletweet}
-          label="Write Tweet here"
+          label="Write Your Tweet"
           name="tweet"
           onChange={this.handel}
           
@@ -61,7 +61,7 @@ class SendTweet extends Component {
         <TextField
         value={this.state.time}
           id="datetime-local"
-          label="Select time here"
+          label="Select your time"
           name="time"
           type="datetime-local"
           InputLabelProps={{
@@ -75,8 +75,8 @@ class SendTweet extends Component {
 
 
   
-        <Button variant="outlined" color="secondary" onClick={this.onSubmit}>
-          Send
+        <Button variant="outlined" color="black" onClick={this.onSubmit}>
+          Proceed
         </Button>
       </Grid>
     );
